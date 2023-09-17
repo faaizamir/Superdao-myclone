@@ -1,0 +1,518 @@
+@media screen and (max-width: 1250px) and (min-width: 700px){
+    .navbar{
+        width: 80%;
+        /* justify-content: center; */
+        gap: 40px;
+    }
+    .navbar ul li a{
+        font-size: 17px;
+        margin: 0px 7px;
+    }
+    .second{
+        width: 726px;
+        font-size: 30px;
+    }
+    .first-bar{
+        width: 700px;
+    }
+    .bar{
+        font-size: 17px;
+        height: 45px;
+        padding: 12px 10px;
+    }
+    .second-bar{
+        margin-top: 15px;
+        height: 50px;
+    }
+    .yellow-bar{
+        font-size: 19px;
+    }
+    .display img{
+        width: 700px;
+    }
+    .text{
+        width: 726px;
+        font-size: 12px;
+    }
+    .stars2{
+        right: 100px;
+    }
+    .stars2 img{
+        width: 50px;
+    }
+    .third{
+        width: 726px;
+        font-size: 12px;
+    }
+    .third h1{
+        font-size: 30px;
+    }
+    .banner img{
+        width: 700px;
+    }
+    .txt{
+        font-size: 13px;
+        width: 710px;
+    }
+    .stars3{
+        left: 100px;
+        top: 0;
+    }
+    .stars3 img{
+        width: 50px;
+    }
+    .fourth{
+        width: 726px;
+    }
+    .icon{
+        width: 125px;
+        height: 125px;
+    }
+    .icons{
+        gap: 10px;
+    }
+    .stars4{
+        left: 0px;
+        top: 0;
+    }
+    .stars4 img{
+        width: 50px;
+    }
+    .fifth{
+        width: 726px;
+    }
+    .profiles img{
+        width: 700px;
+    }
+    .fifth h1{
+        font-size: 30px;
+    }
+    .desc{
+        width: 710px;
+        margin: 10px;
+    }
+    .line1, .line2, .line3{
+        width: 710px;
+    }
+    .sixth{
+        width: 726px;
+        padding: 10px;
+    }
+    .sixth h1{
+        margin-top: 50px;
+    }
+    .sixth input{
+        width: 370px;
+    }
+    .stars5{
+        right: 150px;
+    }
+
+    .eighth{
+        width: 710px;
+        font-size: 12px;
+    }
+    .podcast h1{
+        font-size: 12px;
+    }
+    .podcast{
+        padding: 20px;
+        height: 270px;
+    }
+    .pod{
+        gap: 5px;
+    }
+    .stars6{
+        left: 170px;
+        top: -10px;
+    }
+    .stars6 img{
+        width: 50px;
+    }
+    .stars7{
+        margin: 75px auto;
+    }
+    .nineth{
+        margin-top: 0px;
+        width: 726px;
+    }
+    .buttons{
+        width: 710px;
+    }
+    footer{
+        gap: 30px;
+    }
+    .social{
+        gap: 5px;
+    }
+    .footnav li{
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .logo h1{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1256px){
+    .navbar ul li a{
+        font-size: 18px;
+        margin: 0px 10px;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 320px){
+    .navbar{
+        flex-direction: column;
+        gap: 60px;
+        height: 100vh;
+        justify-content: left;
+        padding: 10px 20px;
+        width: 100vw;
+        position: relative;
+        /* display: none; */
+        align-items: start;
+        background-color: #121E28;
+    }
+    .navbar>a>.logo h1{
+        font-size: 22px;
+    }
+    .navbar>.logo{
+        /* display: block; */
+        position: absolute;
+        left: 5px;
+    }
+    .nav-h{
+        height: 8vh;
+    }
+    .d-none{
+        opacity: 0;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+    }
+    .navbar ul li{
+        padding: 15px 20px;
+        background-color: #182632;
+        border-radius: 10px;
+        margin: 5px 0px;
+    }
+    .target{
+        position: fixed;
+        width: 100%;
+    }
+    .btn1{
+        width: 100%;
+        text-align: left;
+        background-color: #ffc8031f;
+        color: yellow;
+    }
+    .navbar ul li a{
+        margin: 0px;
+    }
+    .hamburger{
+        top: 10px;
+        right: 15px;
+        display: block;
+        /* right: 20px; */
+    }
+    .line{
+        margin: 5px 0px;
+    }
+    .container{
+        margin-top: 100px;
+        width: 250px;
+    }
+    .container h1{
+        font-size: 25px;
+    }
+    .container p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .btn2{
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .cont-end{
+        margin-top: 100px;
+    }
+    .stars img{
+        width: 30px;
+    }
+
+    .second{
+        width: 320px;
+        font-size: 15px;
+    }
+    .second h1{
+        font-size: 20px;
+    }
+    .first-bar{
+        margin-top: 25px;
+        width: 300px;
+    }
+    .bar{
+        margin: 0px 3px;
+        font-size: 10px;
+        height: 38px;
+        padding: 8px 10px;
+    }
+    .second-bar> .bar{
+        height: 30px;
+    }
+    .second-bar{
+        margin-top: 0px;
+        height: 30px;
+        width: 250px;
+    }
+    .yellow-bar{
+        width: 200px !important;
+        font-size: 9px;
+        height: 30px !important;
+        bottom: -15px !important;
+        padding: 3px 2px;
+    }
+    .display{
+        width: 320px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .display img{
+        width: 300px;
+    }
+    .text{
+        margin-top: 100px;
+        width: 320px;
+        font-size: 10px;
+    }
+    .stars2{
+        right: 0px;
+        top: 65px;
+    }
+    .stars2 img{
+        width: 30px;
+    }
+    .third{
+        margin-top: 75px;
+        width: 320px;
+        font-size: 12px;
+    }
+    .third h1{
+        font-size: 20px;
+    }
+    .banner{
+        margin-top: 20px !important;
+    }
+    .banner img{
+        width: 300px;
+    }
+    .txt{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        font-size: 7px;
+        width: 300px;
+    }
+    .watchbtn{
+        margin-top: 15px;
+    }
+    .btn3{
+        
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        padding-left: 35px;
+    }
+    .btn3 img{
+        left: 25px;
+        top: 10px;
+    }
+    .stars3{
+        left: 30px;
+        top: 5px;
+    }
+    .stars3 img{
+        width: 34px;
+    }
+    .fourth{
+        width: 320px;
+    }
+    .fourth h1{
+        font-size: 23px;
+    }
+    .icon{
+        border-radius: 16px;
+        width: 75px;
+        height: 75px;
+    }
+    .icon img{
+        width: 32px;
+    }
+    .flex p{
+        font-size: 12px;
+    }
+    .icons{
+        
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .stars4{
+        left: 20px;
+        top: -20px;
+    }
+    .stars4 img{
+        width: 40px;
+    }
+    .fifth{
+        margin-top: 50px;
+        width: 320px;
+    }
+    .profiles{
+        margin-top: 20px;
+    }
+    .profiles img{
+        width: 300px;
+    }
+    .fifth h1{
+        font-size: 12px;
+    }
+    .fifth>h1{
+        font-size: 20px !important;
+    }
+    .desc{
+        width: 320px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .line1, .line2, .line3{
+        gap: 10px;
+        margin: 0px;
+        width: 320px;
+        line-height: 20px;
+        padding: 5px;
+    }
+    .desc img{
+        width: 20px;
+        height: 20px;
+    }
+    .sixth{
+        margin-top: 50px;
+        width: 320px;
+        padding: 10px;
+        height: 300px;
+    }
+    .sixth h1{
+        font-size: 17px;
+        margin-top: 50px;
+    }
+    .sixth h2{
+        font-size:14px;
+    }
+    .sixth input{
+        border: 2px solid #182632;
+        width: 160px;
+    }
+    .subbtn{
+        font-size: 15px;
+        padding: 10px;
+        width: 110px;
+        margin: 0px 4px;
+    }
+    .stars5{
+        right: 40px;
+        top: -20px;
+    }
+    .stars5 img{
+        width: 50px;
+    }
+    .seventh{
+        margin-top: 100px;
+    }
+    .seventh h1{
+        font-size: 25px;
+    }
+    .backedby img{
+        margin-top: 20px;
+        height: 50px;
+    }
+    .eighth{
+        margin-top: 50px;
+        width: 320px;
+        font-size: 10px;
+    }
+    .eighth>p{
+        right: 10px;
+        top: 10px;
+    }
+    .eighth p img{
+        width: 10px;
+    }
+    .eighth h1{
+        padding: 0px 10px;
+        font-size: 25px;
+    }
+    .podcast h1{
+        font-size: 13px;
+    }
+    .podcast{
+        margin: 5px;
+        padding: 20px;
+        height: 250px;
+        width: 310px;
+    }
+    .pod{
+        margin-top: 10px;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .stars6{
+        left: 130px;
+        top: -10px;
+    }
+    .stars6 img{
+        width: 40px;
+    }
+    .stars7{
+        margin: 75px auto;
+    }
+    .nineth{
+        margin-top: 0px;
+        width: 320px;
+    }
+    .nineth h1{
+        font-size: 20px;
+    }
+    .buttons{
+        flex-direction: column;
+        width: 320px;
+        margin-bottom: 50px;
+    }
+   
+    footer{
+        flex-direction: column;
+        gap: 15px !important;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .footnav li{
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+    footer > a > .logo h1{
+        font-size: 16px;
+    }
+    footer > a > .logo img{
+        width: 45px;
+        height: 25px;
+    }
+    .social{
+        padding: 0px;
+    }
+    .social img{
+        width: 40px;
+    }
+}

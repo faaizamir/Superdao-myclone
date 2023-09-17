@@ -163,14 +163,13 @@
     .navbar{
         flex-direction: column;
         gap: 60px;
-        height: 100vh;
+        /* height: 100vh; */
         justify-content: left;
         padding: 10px 20px;
         width: 100vw;
-        position: relative;
-        /* display: none; */
+        /* position: relative; */
         align-items: start;
-        background-color: #121E28;
+        
     }
     .navbar>a>.logo h1{
         font-size: 22px;
@@ -180,8 +179,12 @@
         position: absolute;
         left: 5px;
     }
+    .nav-f{
+        background-color: #121E28;
+        height: 100vh;
+    }
     .nav-h{
-        height: 8vh;
+        height: 50px;
     }
     .d-none{
         opacity: 0;
@@ -199,7 +202,6 @@
         margin: 5px 0px;
     }
     .target{
-        position: fixed;
         width: 100%;
     }
     .btn1{

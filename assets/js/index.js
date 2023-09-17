@@ -9,4 +9,5 @@ hamburger.addEventListener('click', ()=>{
     navbar.classList.toggle('nav-h');
     list_nav.classList.toggle('d-none');
     hamburger.classList.toggle('axe');
+    navbar.classList.toggle('nav-f');
 })

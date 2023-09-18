@@ -1,520 +1,671 @@
-@media screen and (max-width: 1250px) and (min-width: 700px){
-    .navbar{
+@media screen and (max-width: 1250px) and (min-width: 700px) {
+    .navbar {
         width: 80%;
         /* justify-content: center; */
         gap: 40px;
     }
-    .navbar ul li a{
+
+    .navbar ul li a {
         font-size: 17px;
         margin: 0px 7px;
     }
-    .second{
+
+    .second {
         width: 726px;
         font-size: 30px;
     }
-    .first-bar{
+
+    .first-bar {
         width: 700px;
     }
-    .bar{
+
+    .bar {
         font-size: 17px;
         height: 45px;
         padding: 12px 10px;
     }
-    .second-bar{
+
+    .second-bar {
         margin-top: 15px;
         height: 50px;
     }
-    .yellow-bar{
+
+    .yellow-bar {
         font-size: 19px;
     }
-    .display img{
+
+    .display img {
         width: 700px;
     }
-    .text{
+
+    .text {
         width: 726px;
         font-size: 12px;
     }
-    .stars2{
+
+    .stars2 {
         right: 100px;
     }
-    .stars2 img{
+
+    .stars2 img {
         width: 50px;
     }
-    .third{
+
+    .third {
         width: 726px;
         font-size: 12px;
     }
-    .third h1{
+
+    .third h1 {
         font-size: 30px;
     }
-    .banner img{
+
+    .banner img {
         width: 700px;
     }
-    .txt{
+
+    .txt {
         font-size: 13px;
         width: 710px;
     }
-    .stars3{
+
+    .stars3 {
         left: 100px;
         top: 0;
     }
-    .stars3 img{
+
+    .stars3 img {
         width: 50px;
     }
-    .fourth{
+
+    .fourth {
         width: 726px;
     }
-    .icon{
+
+    .icon {
         width: 125px;
         height: 125px;
     }
-    .icons{
+
+    .icons {
         gap: 10px;
     }
-    .stars4{
+
+    .stars4 {
         left: 0px;
         top: 0;
     }
-    .stars4 img{
+
+    .stars4 img {
         width: 50px;
     }
-    .fifth{
+
+    .fifth {
         width: 726px;
     }
-    .profiles img{
+
+    .profiles img {
         width: 700px;
     }
-    .fifth h1{
+
+    .fifth h1 {
         font-size: 30px;
     }
-    .desc{
+
+    .desc {
         width: 710px;
         margin: 10px;
     }
-    .line1, .line2, .line3{
+
+    .line1,
+    .line2,
+    .line3 {
         width: 710px;
     }
-    .sixth{
+
+    .sixth {
         width: 726px;
         padding: 10px;
     }
-    .sixth h1{
+
+    .sixth h1 {
         margin-top: 50px;
     }
-    .sixth input{
+
+    .sixth input {
         width: 370px;
     }
-    .stars5{
+
+    .stars5 {
         right: 150px;
     }
 
-    .eighth{
+    .eighth {
         width: 710px;
         font-size: 12px;
     }
-    .podcast h1{
+
+    .podcast h1 {
         font-size: 12px;
     }
-    .podcast{
+
+    .podcast {
         padding: 20px;
         height: 270px;
     }
-    .pod{
+
+    .pod {
         gap: 5px;
     }
-    .stars6{
+
+    .stars6 {
         left: 170px;
         top: -10px;
     }
-    .stars6 img{
+
+    .stars6 img {
         width: 50px;
     }
-    .stars7{
+
+    .stars7 {
         margin: 75px auto;
     }
-    .nineth{
+
+    .nineth {
         margin-top: 0px;
         width: 726px;
     }
-    .buttons{
+
+    .buttons {
         width: 710px;
     }
-    footer{
+
+    footer {
         gap: 30px;
     }
-    .social{
+
+    .social {
         gap: 5px;
     }
-    .footnav li{
+
+    .footnav li {
         font-size: 18px;
         padding: 0px 10px;
     }
-    .logo h1{
+
+    .logo h1 {
         font-size: 22px;
     }
 }
-@media screen and (min-width: 900px) and (max-width: 1256px){
-    .navbar ul li a{
+
+@media screen and (min-width: 900px) and (max-width: 1256px) {
+    .navbar ul li a {
         font-size: 18px;
         margin: 0px 10px;
     }
 }
-@media screen and (max-width: 700px) and (min-width: 320px){
-    .navbar{
+
+@media screen and (max-width: 700px) and (min-width: 320px) {
+    .navbar {
         flex-direction: column;
         gap: 60px;
         /* height: 100vh; */
         justify-content: left;
-        padding: 10px 20px;
+        padding: 15px 20px;
         width: 100vw;
         /* position: relative; */
         align-items: start;
-        
+
     }
-    .navbar>a>.logo h1{
+
+    .navbar>a>.logo h1 {
         font-size: 22px;
     }
-    .navbar>.logo{
+
+    .navbar>.logo {
         /* display: block; */
         position: absolute;
         left: 5px;
     }
-    .nav-f{
+
+    .nav-f {
         background-color: #121E28;
         height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
     }
-    .nav-h{
+
+    .nav-h {
         height: 50px;
     }
-    .d-none{
+
+    .d-none {
         opacity: 0;
     }
-    .navbar ul{
+
+    .navbar ul {
         display: flex;
         flex-direction: column;
         text-align: left;
         width: 100%;
     }
-    .navbar ul li{
+
+    .navbar ul li {
         padding: 15px 20px;
         background-color: #182632;
         border-radius: 10px;
         margin: 5px 0px;
     }
-    .target{
+
+    .target {
         width: 100%;
     }
-    .btn1{
+
+    .btn1 {
         width: 100%;
         text-align: left;
         background-color: #ffc8031f;
         color: yellow;
     }
-    .navbar ul li a{
+
+    .navbar ul li a {
         margin: 0px;
     }
-    .hamburger{
+
+    .hamburger {
         top: 10px;
         right: 15px;
         display: block;
         /* right: 20px; */
     }
-    .line{
+
+    .line {
         margin: 5px 0px;
     }
-    .container{
+
+    .container {
         margin-top: 100px;
         width: 250px;
     }
-    .container h1{
+
+    .container h1 {
         font-size: 25px;
     }
-    .container p{
+
+    .container p {
         font-size: 10px;
         line-height: 15px;
     }
-    .btn2{
+
+    .btn2 {
         width: 150px;
         height: 40px;
         font-size: 15px;
     }
-    .cont-end{
+
+    .cont-end {
         margin-top: 100px;
     }
-    .stars img{
+
+    .stars img {
         width: 30px;
     }
 
-    .second{
+    .second {
         width: 320px;
         font-size: 15px;
     }
-    .second h1{
+
+    .second h1 {
         font-size: 20px;
     }
-    .first-bar{
+
+    .first-bar {
         margin-top: 25px;
         width: 300px;
     }
-    .bar{
+
+    .bar {
         margin: 0px 3px;
         font-size: 10px;
         height: 38px;
         padding: 8px 10px;
     }
-    .second-bar> .bar{
+
+    .second-bar>.bar {
         height: 30px;
     }
-    .second-bar{
+
+    .second-bar {
         margin-top: 0px;
         height: 30px;
         width: 250px;
     }
-    .yellow-bar{
+
+    .yellow-bar {
         width: 200px !important;
         font-size: 9px;
         height: 30px !important;
         bottom: -15px !important;
         padding: 3px 2px;
     }
-    .display{
+
+    .display {
         width: 320px;
         margin: auto;
         margin-top: 20px;
     }
-    .display img{
+
+    .display img {
         width: 300px;
     }
-    .text{
+
+    .text {
         margin-top: 100px;
         width: 320px;
         font-size: 10px;
     }
-    .stars2{
+
+    .stars2 {
         right: 0px;
         top: 65px;
     }
-    .stars2 img{
+
+    .stars2 img {
         width: 30px;
     }
-    .third{
+
+    .third {
         margin-top: 75px;
         width: 320px;
         font-size: 12px;
     }
-    .third h1{
+
+    .third h1 {
         font-size: 20px;
     }
-    .banner{
+
+    .banner {
         margin-top: 20px !important;
     }
-    .banner img{
+
+    .banner img {
         width: 300px;
     }
-    .txt{
+
+    .txt {
         display: flex;
         flex-wrap: wrap;
         margin-top: 10px;
         font-size: 7px;
         width: 300px;
     }
-    .watchbtn{
+
+    .watchbtn {
         margin-top: 15px;
     }
-    .btn3{
-        
+
+    .btn3 {
+
         width: 200px;
         height: 50px;
         font-size: 15px;
         padding-left: 35px;
     }
-    .btn3 img{
+
+    .btn3 img {
         left: 25px;
         top: 10px;
     }
-    .stars3{
+
+    .stars3 {
         left: 30px;
         top: 5px;
     }
-    .stars3 img{
+
+    .stars3 img {
         width: 34px;
     }
-    .fourth{
+
+    .fourth {
         width: 320px;
     }
-    .fourth h1{
+
+    .fourth h1 {
         font-size: 23px;
     }
-    .icon{
+
+    .icon {
         border-radius: 16px;
         width: 75px;
         height: 75px;
     }
-    .icon img{
+
+    .icon img {
         width: 32px;
     }
-    .flex p{
+
+    .flex {
+        margin: 5px;
+    }
+
+    .flex p {
         font-size: 12px;
     }
-    .icons{
-        
+
+    .icons {
+
         flex-wrap: wrap;
         gap: 10px;
     }
-    .stars4{
+
+    .stars4 {
         left: 20px;
         top: -20px;
     }
-    .stars4 img{
+
+    .stars4 img {
         width: 40px;
     }
-    .fifth{
+
+    .fifth {
         margin-top: 50px;
         width: 320px;
     }
-    .profiles{
+
+    .profiles {
         margin-top: 20px;
     }
-    .profiles img{
+
+    .profiles img {
         width: 300px;
     }
-    .fifth h1{
+
+    .fifth h1 {
         font-size: 12px;
     }
-    .fifth>h1{
+
+    .fifth>h1 {
         font-size: 20px !important;
     }
-    .desc{
+
+    .desc {
         width: 320px;
         margin: 0px;
         margin-top: 10px;
     }
-    .line1, .line2, .line3{
+
+    .line1,
+    .line2,
+    .line3 {
         gap: 10px;
         margin: 0px;
         width: 320px;
         line-height: 20px;
         padding: 5px;
     }
-    .desc img{
+
+    .desc img {
         width: 20px;
         height: 20px;
     }
-    .sixth{
+
+    .sixth {
         margin-top: 50px;
         width: 320px;
         padding: 10px;
         height: 300px;
     }
-    .sixth h1{
+
+    .sixth h1 {
         font-size: 17px;
         margin-top: 50px;
     }
-    .sixth h2{
-        font-size:14px;
+
+    .sixth h2 {
+        font-size: 14px;
     }
-    .sixth input{
+
+    .sixth input {
         border: 2px solid #182632;
         width: 160px;
-    }
-    .subbtn{
-        font-size: 15px;
+        height: 50px;
         padding: 10px;
-        width: 110px;
+        font-size: 10px;
+    }
+
+    .subbtn {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 10px;
+        width: 80px;
+        border-radius: 10px;
+        height: 40px;
         margin: 0px 4px;
     }
-    .stars5{
+
+    .stars5 {
         right: 40px;
         top: -20px;
     }
-    .stars5 img{
+
+    .stars5 img {
         width: 50px;
     }
-    .seventh{
+
+    .seventh {
         margin-top: 100px;
     }
-    .seventh h1{
+
+    .seventh h1 {
         font-size: 25px;
     }
-    .backedby img{
+
+    .backedby img {
         margin-top: 20px;
-        height: 50px;
+        height: 75px;
     }
-    .eighth{
+
+    .eighth {
         margin-top: 50px;
         width: 320px;
         font-size: 10px;
     }
-    .eighth>p{
+
+    .eighth>p {
         right: 10px;
         top: 10px;
     }
-    .eighth p img{
+
+    .eighth p img {
         width: 10px;
     }
-    .eighth h1{
+
+    .eighth>h1 {
         padding: 0px 10px;
         font-size: 25px;
     }
-    .podcast h1{
+
+    .podcast h1 {
         font-size: 13px;
+        margin-bottom: 12px;
     }
-    .podcast{
+
+    .podcast h2 {
+        font-size: 10px;
+    }
+
+    .podcast {
         margin: 5px;
         padding: 20px;
         height: 250px;
         width: 310px;
     }
-    .pod{
+
+    .pod {
         margin-top: 10px;
         gap: 15px;
         flex-direction: column;
     }
-    .stars6{
+
+    .stars6 {
         left: 130px;
         top: -10px;
     }
-    .stars6 img{
+
+    .stars6 img {
         width: 40px;
     }
-    .stars7{
+
+    .stars7 {
         margin: 75px auto;
     }
-    .nineth{
+
+    .nineth {
         margin-top: 0px;
         width: 320px;
     }
-    .nineth h1{
+
+    .nineth h1 {
         font-size: 20px;
     }
-    .buttons{
+
+    .buttons {
         flex-direction: column;
         width: 320px;
         margin-bottom: 50px;
     }
-   
-    footer{
+
+    footer {
         flex-direction: column;
         gap: 15px !important;
         justify-content: center;
         align-items: center;
         width: 100vw;
     }
-    .footnav li{
+
+    .footnav li {
         font-size: 12px;
         padding: 0px 10px;
     }
-    footer > a > .logo h1{
+
+    footer>a>.logo h1 {
         font-size: 16px;
     }
-    footer > a > .logo img{
+
+    footer>a>.logo img {
         width: 45px;
         height: 25px;
     }
-    .social{
+
+    .social {
         padding: 0px;
     }
-    .social img{
+
+    .social img {
         width: 40px;
     }
 }

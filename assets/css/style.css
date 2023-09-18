@@ -506,7 +506,15 @@ ul li a:hover {
     border: none;
     margin: 0px 20px;
     cursor: pointer;
+    
 }
+.subbtn:hover{
+    background-color: #cdaaff00;
+    color: #CEAAFF;
+    transition: all .5s ease;
+    border: 2px solid #CEAAFF;
+}
+
 
 .seventh {
     margin-top: 200px;
